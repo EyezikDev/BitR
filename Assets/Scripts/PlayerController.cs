@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour
     {
         // Make cursor invisib
         Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
         // Assign Components of player
         rb = GetComponent<Rigidbody>();
         audioSource = GetComponent<AudioSource>();
@@ -43,7 +44,7 @@ public class PlayerController : MonoBehaviour
             transform.position = checkPoint;
         }
         // If the Space key is pressed and the ball is on the ground...
-        if (Input.GetKeyDown("space") && IsGrounded())
+        if (Input.GetKeyDown("space") && IsGrounded() && Time.timeScale != 0f)
         {
            // Add force upwards
            rb.AddForce(Vector3.up * jumpForce);

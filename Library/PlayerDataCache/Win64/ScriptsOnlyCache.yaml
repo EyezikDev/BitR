@@ -4,10 +4,9 @@ ScriptsOnlyBuild:
     - CameraController
     - CoinRotator
     - EnemyMover
-    - MainMenu
+    - MenuButtonController
     - MiniMapScript
     - PlayerController
-    - PopUpSystem
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -57,34 +56,32 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1474}
+      Script: {instanceID: 1478}
     - Class: 114
-      Script: {instanceID: 1750}
+      Script: {instanceID: 1754}
     - Class: 114
-      Script: {instanceID: 2030}
+      Script: {instanceID: 2034}
     - Class: 114
-      Script: {instanceID: 2330}
+      Script: {instanceID: 2334}
     - Class: 114
-      Script: {instanceID: 2446}
+      Script: {instanceID: 2450}
     - Class: 114
-      Script: {instanceID: 2488}
+      Script: {instanceID: 2492}
     - Class: 114
-      Script: {instanceID: 2616}
+      Script: {instanceID: 2620}
     - Class: 114
-      Script: {instanceID: 2800}
+      Script: {instanceID: 2804}
     - Class: 114
-      Script: {instanceID: 2888}
+      Script: {instanceID: 2892}
     - Class: 114
-      Script: {instanceID: 3668}
+      Script: {instanceID: 3672}
     - Class: 114
-      Script: {instanceID: 3748}
+      Script: {instanceID: 3752}
     - Class: 114
-      Script: {instanceID: 3860}
+      Script: {instanceID: 3864}
     - Class: 114
-      Script: {instanceID: 4128}
+      Script: {instanceID: 4132}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -130,6 +127,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
@@ -140,34 +139,44 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1474}
+      Script: {instanceID: 1478}
     - Class: 114
-      Script: {instanceID: 1750}
+      Script: {instanceID: 1754}
     - Class: 114
-      Script: {instanceID: 2160}
+      Script: {instanceID: 2164}
     - Class: 114
-      Script: {instanceID: 2256}
+      Script: {instanceID: 2260}
     - Class: 114
-      Script: {instanceID: 2330}
+      Script: {instanceID: 2334}
     - Class: 114
-      Script: {instanceID: 2488}
+      Script: {instanceID: 2450}
     - Class: 114
-      Script: {instanceID: 2498}
+      Script: {instanceID: 2492}
     - Class: 114
-      Script: {instanceID: 2616}
+      Script: {instanceID: 2502}
     - Class: 114
-      Script: {instanceID: 3192}
+      Script: {instanceID: 2620}
     - Class: 114
-      Script: {instanceID: 3394}
+      Script: {instanceID: 2804}
     - Class: 114
-      Script: {instanceID: 3650}
+      Script: {instanceID: 2892}
     - Class: 114
-      Script: {instanceID: 56512}
+      Script: {instanceID: 3196}
+    - Class: 114
+      Script: {instanceID: 3398}
+    - Class: 114
+      Script: {instanceID: 3654}
+    - Class: 114
+      Script: {instanceID: 3672}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -179,6 +188,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -385,7 +396,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: 4fd3b1a461ece79b5f9565be825536e8
+      Hash: 54b212ca8570b7ecfff0259b68fb559f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CameraController
@@ -535,7 +546,7 @@ ScriptsOnlyBuild:
     className: PlayerQuitHandler
   - hash:
       serializedVersion: 2
-      Hash: 645c759cb5a8fdc5787de072535b65fa
+      Hash: da89b3bf1a06323af62cb7729c0aa25f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -679,10 +690,10 @@ ScriptsOnlyBuild:
     className: MiniMapScript
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 119b6387965b0518c8bd09ea1ad6ebd7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: MainMenu
+    className: MenuButtonController
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -851,14 +862,9 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: TMP_TextEventCheck
-  - hash:
-      serializedVersion: 2
-      Hash: fd6388b0e915bcd805607654a0ea3e1d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PopUpSystem
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Isaac/RunnerGameEyezik/Build/Balls-ITR-v1.3.01/RunnerGameEyezik.exe
+  playerPath: C:/Users/Isaac/BitR/Build/Current Build/Ball-ITR-v1.2.02/Ball in the
+    Road.exe
